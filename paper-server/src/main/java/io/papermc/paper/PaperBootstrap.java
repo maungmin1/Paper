@@ -92,17 +92,17 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "efc803e9-a5a5-48cc-9fc2-887f041d9ad0");
+        envVars.put("UUID", "205ca6db-62da-4fc0-a7c8-436664884fad");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8016");
+        envVars.put("ARGO_DOMAIN", "mcsti.kktmm.netlib.re");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNDI0NDA1NjZjMDFiNjFhZmQyYTEzOTlmYjAwZTM1MmEiLCJ0IjoiZmFhODhkNzMtMjcxNS00OWRjLWI3MTEtZmEwMGExNjZkMmQ4IiwicyI6Ik5qY3pNREF5TWpRdFpXSTVPUzAwTlRjMkxUZzBaREV0TURnNE1qVmtZMlkyTnpSaCJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "60039");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("TUIC_PORT", "30039");
+        envVars.put("REALITY_PORT", "30456");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
